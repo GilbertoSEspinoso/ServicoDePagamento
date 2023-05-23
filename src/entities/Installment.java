@@ -17,12 +17,12 @@ public class Installment {
         this.amount = amount;
     }
 
-    public LocalDate getDueDate() {
+    public LocalDate getDate() {
         return date;
     }
 
-    public void setDueDate(LocalDate dueDate) {
-        this.date = dueDate;
+    public void setDate(LocalDate Date) {
+        this.date = Date;
     }
 
     public Double getAmount() {
