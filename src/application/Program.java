@@ -18,7 +18,7 @@ public class Program {
 
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
-        System.out.println("Entre os dados do contrato: ");
+        System.out.println("Entre com os dados do contrato: ");
         System.out.print("Número do contrato: ");
         int number = sc.nextInt();
         System.out.print("Data (dd/MM/yyyy): ");
